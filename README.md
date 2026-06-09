@@ -1,5 +1,9 @@
 # Student Performance Predictor with AI Study Coach
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://student-performance-predict-ai.streamlit.app/)
+
+![Demo Screenshot](screenshots/demo.png)
+
 ## Overview
 
 This project predicts student exam performance using Machine Learning and provides personalized study recommendations using Google's Gemini AI.
