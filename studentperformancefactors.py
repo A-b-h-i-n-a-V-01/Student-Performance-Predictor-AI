@@ -260,13 +260,13 @@ print(response.text)
 #     )
 #     st.write(response.text)
 
-#!pip install -q pyngrok
-from pyngrok import ngrok
-token=userdata.get('ngrok')
-ngrok.set_auth_token(token)
-public_url=ngrok.connect(8501)
-print(public_url)
-
-!streamlit run app.py &>/content/logs.txt &
-
-!nps localtunnel --port 8501
+# #!pip install -q pyngrok
+# from pyngrok import ngrok
+# token=userdata.get('ngrok')
+# ngrok.set_auth_token(token)
+# public_url=ngrok.connect(8501)
+# print(public_url)
+# 
+# !streamlit run app.py &>/content/logs.txt &
+# 
+# !nps localtunnel --port 8501
