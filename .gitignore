@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Streamlit logs/configs
+.streamlit/
+logs.txt
+
+# Large binary files (optional to ignore, but good practice if you rebuild them)
+# student.pkl
