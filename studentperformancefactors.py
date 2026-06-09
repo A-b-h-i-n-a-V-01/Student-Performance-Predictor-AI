@@ -172,7 +172,7 @@ genai.configure(api_key=key)
 
 model=genai.GenerativeModel( 'gemini-2.5-flash')
 
-!pip install -q -U google-generativeai
+#!pip install -q -U google-generativeai
 
 prompt=f"""
 You are an export academic mentor.
@@ -192,7 +192,7 @@ Use Bullet Points.
 response=model.generate_content(prompt)
 print(response.text)
 
-!pip install streamlit
+#!pip install streamlit
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
@@ -260,7 +260,7 @@ print(response.text)
 #     )
 #     st.write(response.text)
 
-!pip install -q pyngrok
+#!pip install -q pyngrok
 from pyngrok import ngrok
 token=userdata.get('ngrok')
 ngrok.set_auth_token(token)
